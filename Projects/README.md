@@ -17,12 +17,12 @@ Below are the questions I want to answer in my project:
 
 For my deep dive into the data analyst job market, I relied on a few essential tools:
 
--**Python**: The backbone of my analysis, making it possible to dig into the data and uncover valuable insights. I also used the following Python libraries:
-    -**Pandas Library**: To analyze the data.
-    -**Matplotlib Library**: To visualize the data.
-    -**Seaborn Library**: To create more advanced visuals.
--**Google Colab**: My go-to for running Python scripts and including notes and analysis with ease.
--**Git & GitHub**: Crucial for version control and sharing my code and analysis, ensuring collaboration and project tracking. I uploaded the files directly from Google Colab to GitHub.
+- **Python:** The backbone of my analysis, making it possible to dig into the data and uncover valuable insights. I also used the following Python libraries:
+    - **Pandas Library:** To analyze the data. 
+    - **Matplotlib Library:** To visualize the data.
+    - **Seaborn Library:** To create more advanced visuals. 
+- **Google Colab:** My go-to for running Python scripts and including notes and analysis with ease.
+- **Git & GitHub:** Crucial for version control and sharing my code and analysis, ensuring collaboration and project tracking. I uploaded the files directly from Google Colab to GitHub.
 
 By combining these tools, I could effectively explore the job market and present my findings.
 
@@ -84,6 +84,7 @@ plt.show()
 ### Results
 
 ![Likelihood of Skills Requested in the US Job Postings](Projects/images/Likelihood_of_Skills_Requested_in_US_Job_Postings.png)
+
 
 *Bar graph visualizing the salary for the top 3 data roles and their top 5 skills associated with each.*
 
