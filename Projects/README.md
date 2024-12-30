@@ -1,8 +1,8 @@
 # Overview
 
-Welcome to my analysis of the data job market, focusing on data analyst roles. This project was created out of a desire to navigate and understand the job market more effectively. It delves into the top-paying and in-demand skills to help find optimal job opportunities for data analysts.
+Welcome to my deep dive into the data job market, focusing on data analyst roles. This project was born out of a need to better navigate and understand the job landscape. The goal is to pinpoint top-paying and in-demand skills, helping aspiring data analysts find the best job opportunities.
 
-The data sourced from [Luke Barousse's Python Course](https://lukebarousse.com/python) which provides a foundation for my analysis, containing detailed information on job titles, salaries, locations, and essential skills. Through a series of Python scripts, I explore key questions such as the most demanded skills, salary trends, and the intersection of demand and salary in data analytics.
+The data comes from Luke Barousse's Python Course, which lays the groundwork for this analysis. It includes detailed information on job titles, salaries, locations, and key skills. Through a series of Python scripts, I've explored crucial questions like the most demanded skills, salary trends, and how demand intersects with salary in the field of data analytics.
 
 # The Questions
 
@@ -15,15 +15,16 @@ Below are the questions I want to answer in my project:
 
 # Tools I Used
 
-For my deep dive into the data analyst job market, I harnessed the power of several key tools:
+For my deep dive into the data analyst job market, I relied on a few essential tools:
 
-- **Python:** The backbone of my analysis, allowing me to analyze the data and find critical insights.I also used the following Python libraries:
-    - **Pandas Library:** This was used to analyze the data. 
-    - **Matplotlib Library:** I visualized the data.
-    - **Seaborn Library:** Helped me create more advanced visuals. 
-- **Jupyter Notebooks:** The tool I used to run my Python scripts which let me easily include my notes and analysis.
-- **Visual Studio Code:** My go-to for executing my Python scripts.
-- **Git & GitHub:** Essential for version control and sharing my Python code and analysis, ensuring collaboration and project tracking.
+-**Python**: The backbone of my analysis, making it possible to dig into the data and uncover valuable insights. I also used the following Python libraries:
+    -**Pandas Library**: To analyze the data.
+    -**Matplotlib Library**: To visualize the data.
+    -**Seaborn Library**: To create more advanced visuals.
+-**Google Colab**: My go-to for running Python scripts and including notes and analysis with ease.
+-**Git & GitHub**: Crucial for version control and sharing my code and analysis, ensuring collaboration and project tracking. I uploaded the files directly from Google Colab to GitHub.
+
+By combining these tools, I could effectively explore the job market and present my findings.
 
 # Data Preparation and Cleanup
 
@@ -67,8 +68,6 @@ Each Jupyter notebook for this project aimed at investigating specific aspects o
 
 To find the most demanded skills for the top 3 most popular data roles. I filtered out those positions by which ones were the most popular, and got the top 5 skills for these top 3 roles. This query highlights the most popular job titles and their top skills, showing which skills I should pay attention to depending on the role I'm targeting. 
 
-View my notebook with detailed steps here: [2_Skill_Demand](2_Skill_Demand.ipynb).
-
 ### Visualize Data
 
 ```python
@@ -84,7 +83,7 @@ plt.show()
 
 ### Results
 
-![Likelihood of Skills Requested in the US Job Postings](images/Likelihood_of_Skills_Requested_in_US_Job_Postings.png)
+![Likelihood of Skills Requested in the US Job Postings](Projects/images/Likelihood_of_Skills_Requested_in_US_Job_Postings.png)
 
 *Bar graph visualizing the salary for the top 3 data roles and their top 5 skills associated with each.*
 
